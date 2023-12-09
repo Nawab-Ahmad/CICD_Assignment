@@ -1,0 +1,16 @@
+// .devcontainer/devcontainer.json
+{
+    "name": "Node.js",
+    "build": {
+      "dockerfile": "../Dockerfile",
+      "context": ".."
+    },
+    "extensions": [
+      "dbaeumer.vscode-eslint",
+      "esbenp.prettier-vscode"
+    ],
+    "postCreateCommand": "yarn install",
+    "workspaceFolder": "/workspace",
+    "settings": "customizations/vscode/settings.json"
+  }
+  

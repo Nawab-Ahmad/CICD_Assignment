@@ -1,0 +1,6 @@
+// customizations/vscode/settings.json
+{
+    "terminal.integrated.shell.linux": "/bin/bash",
+    "terminal.integrated.shellArgs.linux": ["-l"]
+  }
+  
